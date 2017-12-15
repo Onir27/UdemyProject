@@ -3,7 +3,7 @@ export class Recipe {
     public description: string;
     public imagePath: string;
 
-    constructor(name: string, desc: string, imagePathe: string){
+    constructor(name: string, desc: string, imagePathe: string) {
         this.name = name;
         this.description = desc;
         this.imagePath = imagePathe;

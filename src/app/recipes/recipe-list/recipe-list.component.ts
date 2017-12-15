@@ -9,7 +9,8 @@ import { nearer } from 'q';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('French Fry', 'Deep fried potato sticks', 'https://pixabay.com/en/french-fries-food-french-plate-1351062/'),
+    new Recipe('French Fry', 'Deep fried potato sticks', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'),
+    new Recipe('French Fry', 'Deep fried potato sticks', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg')
   ];
   constructor() { }
 
